@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Roller Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎲 Dice Roller 🎲</h1>
+
+        <label for="playerCount">Select number of players:</label>
+        <select id="playerCount">
+            <option value="2">2 Players</option>
+            <option value="3">3 Players</option>
+            <option value="4">4 Players</option>
+            <option value="5">5 Players</option>
+            <option value="6">6 Players</option>
+        </select>
+
+        <h2 id="turnInfo">Player 1's turn</h2>
+
+        <div id="players" class="players"></div>
+
+        <button onclick="rollDice()">Roll Dice</button>
+    </div>
+
+    <audio id="rollSound" src="dice-roll.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
