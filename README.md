@@ -15,7 +15,7 @@ This is a fun and interactive **Dice Roller** built with HTML, CSS, and JavaScri
 
 ##  Video Demo
 
-
+[ Watch Demo](demo-video.mp4)
 
 ##  How I Built This
 
